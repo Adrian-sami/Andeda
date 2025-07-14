@@ -965,120 +965,137 @@
             background-color: var(--primary-dark);
             transform: translateY(-5px);
         }
-        /* Improved Google Translate Widget Styling */
-        #google_translate_element {
-            position: fixed;
-            top: 120px;
-            right: 20px;
-            z-index: 9999;
-            background: white;
-            border-radius: var(--border-radius);
-            padding: 8px;
-            box-shadow: var(--box-shadow);
-            border: 1px solid rgba(0,0,0,0.1);
-            transition: var(--transition);
-        }
+/* Improved Google Translate Widget Styling */
+#google_translate_element {
+    position: fixed;
+    top: 120px;
+    right: 20px;
+    z-index: 9999;
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 8px;
+    box-shadow: var(--box-shadow);
+    border: 1px solid rgba(0,0,0,0.1);
+    transition: var(--transition);
+}
 
-        #google_translate_element:hover {
-            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
-            transform: translateY(-2px);
-        }
+#google_translate_element:hover {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
+}
 
-        /* Language Selector Dropdown */
-        .goog-te-combo {
-            padding: 8px 12px !important;
-            border-radius: var(--border-radius) !important;
-            border: 1px solid #ddd !important;
-            background: var(--white) !important;
-            color: var(--text) !important;
-            font-family: 'Inter', sans-serif !important;
-            font-size: 14px !important;
-            font-weight: 500 !important;
-            cursor: pointer;
-            min-width: 140px;
-            transition: var(--transition);
-            appearance: none;
-            -webkit-appearance: none;
-            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23256029' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e") !important;
-            background-repeat: no-repeat !important;
-            background-position: right 8px center !important;
-            background-size: 16px !important;
-        }
+/* Language Selector Dropdown */
+.goog-te-combo {
+    padding: 8px 12px !important;
+    border-radius: var(--border-radius) !important;
+    border: 1px solid #ddd !important;
+    background: var(--white) !important;
+    color: var(--text) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    cursor: pointer;
+    min-width: 140px;
+    transition: var(--transition);
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23256029' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 8px center !important;
+    background-size: 16px !important;
+}
 
-        .goog-te-combo:hover {
-            border-color: var(--primary) !important;
-            box-shadow: 0 0 0 3px rgba(37, 96, 41, 0.1) !important;
-        }
+.goog-te-combo:hover {
+    border-color: var(--primary) !important;
+    box-shadow: 0 0 0 3px rgba(37, 96, 41, 0.1) !important;
+}
 
-        /* Hide Google Branding */
-        .goog-te-gadget {
-            color: transparent !important;
-            font-size: 0 !important;
-        }
+/* Hide Google Branding */
+.goog-te-gadget {
+    color: transparent !important;
+    font-size: 0 !important;
+}
 
-        .goog-logo-link, 
-        .goog-te-banner-frame, 
-        .goog-te-gadget span {
-            display: none !important;
-        }
+.goog-logo-link, 
+.goog-te-banner-frame, 
+.goog-te-gadget span {
+    display: none !important;
+}
 
-        /* Language Dropdown Menu */
-        .goog-te-menu-value span {
-            color: var(--text) !important;
-        }
+/* Language Dropdown Menu */
+.goog-te-menu-value span {
+    color: var(--text) !important;
+}
 
-        .goog-te-menu2 {
-            max-width: 300px !important;
-            border-radius: var(--border-radius) !important;
-            overflow: hidden !important;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.15) !important;
-            border: 1px solid #eee !important;
-            font-family: 'Inter', sans-serif !important;
-        }
+.goog-te-menu2 {
+    max-width: 300px !important;
+    border-radius: var(--border-radius) !important;
+    overflow: hidden !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15) !important;
+    border: 1px solid #eee !important;
+    font-family: 'Inter', sans-serif !important;
+}
 
-        .goog-te-menu2-item div, 
-        .goog-te-menu2-item-selected div {
-            padding: 10px 15px !important;
-            color: var(--text) !important;
-            font-size: 14px !important;
-        }
+.goog-te-menu2-item div, 
+.goog-te-menu2-item-selected div {
+    padding: 10px 15px !important;
+    color: var(--text) !important;
+    font-size: 14px !important;
+}
 
-        .goog-te-menu2-item:hover {
-            background-color: var(--primary-light) !important;
-        }
+.goog-te-menu2-item:hover {
+    background-color: var(--primary-light) !important;
+}
 
-        .goog-te-menu2-item-selected {
-            background-color: var(--primary-light) !important;
-        }
+.goog-te-menu2-item-selected {
+    background-color: var(--primary-light) !important;
+}
 
-        /* Mobile Responsiveness */
-        @media (max-width: 768px) {
-            #google_translate_element {
-                top: 100px;
-                right: 10px;
-                padding: 6px;
-            }
-            
-            .goog-te-combo {
-                padding: 6px 10px !important;
-                font-size: 13px !important;
-                min-width: 120px;
-            }
-        }
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #google_translate_element {
+        top: 80px;
+        right: 10px;
+        padding: 6px;
+    }
+    
+    .goog-te-combo {
+        padding: 6px 10px !important;
+        font-size: 13px !important;
+        min-width: 120px;
+    }
+}
 
-        @media (max-width: 480px) {
-            #google_translate_element {
-                position: static;
-                margin: 20px auto;
-                width: 90%;
-                text-align: center;
-            }
-            
-            .goog-te-combo {
-                width: 100% !important;
-                max-width: 200px;
-            }
-        }
+@media (max-width: 480px) {
+    #google_translate_element {
+        top: auto;
+        bottom: 20px;
+        right: 50%;
+        transform: translateX(50%);
+        width: auto;
+        max-width: calc(100% - 40px);
+        margin: 0;
+    }
+    
+    .goog-te-combo {
+        min-width: 150px;
+        width: 100% !important;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 360px) {
+    #google_translate_element {
+        bottom: 10px;
+        padding: 5px;
+    }
+    
+    .goog-te-combo {
+        font-size: 12px !important;
+        padding: 5px 8px !important;
+        min-width: 130px;
+    }
+}
     </style>
 </head>
 <body>
@@ -1356,10 +1373,10 @@
                 </div>
                 <div class="footer-contact">
                     <h3>Contact Us</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> 123 Analytics Street, Data City, DC 10001</p>
-                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
-                    <p><i class="fas fa-envelope"></i> info@andeda.com</p>
-                    <p><i class="fas fa-clock"></i> Mon-Fri: 9:00 AM - 6:00 PM</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Banapa, Malabo, Equatorial Guinea</p>
+                    <p><i class="fas fa-phone"></i> +240 (222) 108 272</p>
+                    <p><i class="fas fa-envelope"></i> andeda1@outlook.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 9:00 AM - 5:00 PM</p>
                 </div>
             </div>
             <div class="copyright">
